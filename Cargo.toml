@@ -10,9 +10,10 @@ homepage = "https://github.com/liranringel/ipconfig"
 documentation = "https://docs.rs/ipconfig/0.2/x86_64-pc-windows-msvc/ipconfig/"
 readme = "README.md"
 edition = "2018"
+publish = ["astropad"]
 
-[badges]
-appveyor = { repository = "liranringel/ipconfig" }
+# [badges]
+# appveyor = { repository = "liranringel/ipconfig" }
 
 [target.'cfg(windows)'.dependencies]
 winapi = "^0.3.4"
